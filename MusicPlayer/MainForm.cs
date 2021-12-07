@@ -65,6 +65,7 @@ namespace MusicPlayer
             }
             else
             {
+                pbSong.Image = null;
                 pbSong.BackgroundImage = Properties.Resources.icons8_music_48px_1;
                 pbSong.BackgroundImageLayout = ImageLayout.Center;
             }
@@ -92,6 +93,7 @@ namespace MusicPlayer
             }
             else if (mPlayer.playState == WMPLib.WMPPlayState.wmppsStopped)
             {
+                btnPlay.BackgroundImage = Properties.Resources.icons8_play_32px;
                 tTrackBar.Stop();
                 timerLyric.Stop();
                 trackBar.Value = 0;

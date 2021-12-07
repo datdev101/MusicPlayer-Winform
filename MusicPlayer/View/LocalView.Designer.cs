@@ -165,6 +165,7 @@ namespace MusicPlayer.View
             // 
             // panelDownload
             // 
+            this.panelDownload.AutoScroll = true;
             this.panelDownload.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDownload.Location = new System.Drawing.Point(3, 3);
             this.panelDownload.Name = "panelDownload";
@@ -184,6 +185,7 @@ namespace MusicPlayer.View
             // 
             // panelKaraoke
             // 
+            this.panelKaraoke.AutoScroll = true;
             this.panelKaraoke.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelKaraoke.Location = new System.Drawing.Point(3, 3);
             this.panelKaraoke.Name = "panelKaraoke";

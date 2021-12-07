@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoAnCSharp", "DoAnCSharp\DoAnCSharp.csproj", "{A66E4981-B756-4E97-A6FE-FBE37B59819F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicPlayer", "MusicPlayer\MusicPlayer.csproj", "{71499336-8E35-408A-9B1F-9F4B6C905FBB}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A66E4981-B756-4E97-A6FE-FBE37B59819F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A66E4981-B756-4E97-A6FE-FBE37B59819F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A66E4981-B756-4E97-A6FE-FBE37B59819F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A66E4981-B756-4E97-A6FE-FBE37B59819F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71499336-8E35-408A-9B1F-9F4B6C905FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71499336-8E35-408A-9B1F-9F4B6C905FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71499336-8E35-408A-9B1F-9F4B6C905FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
